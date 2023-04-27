@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Roboto Condensed" sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /******************************** NAVBAR **********************************************/
@@ -48,4 +48,29 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top:  0.1875rem solid var(--primary-orange);
+}
+
+/******************************** HEADER **********************************************/
+
+.header-wraper {
+  position: relative;
+  /* background: url(../src/5ea9629322baab001c533b3f.jpg) no-repeat; */
+  /* background: url(../src/6Nf5kRK5aYUmKMee2GQ3F5-1200-80.jpg) no-repeat; */
+  background: url(../src/pexels-hasan-albari-1229861.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
 }
