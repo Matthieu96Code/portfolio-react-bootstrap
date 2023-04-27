@@ -74,3 +74,10 @@ nav ul li {
   color: var(--primary-orange);
   text-transform: uppercase;
 }
+
+/* ----------TYPED TEXT ----------------- */
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
