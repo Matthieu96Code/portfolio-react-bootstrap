@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255,255,255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/******************************** NAVBAR **********************************************/
+
+.logo {
+  width: 16.25rem;
+}
+
+/************ MENU LINKS *************/
+
+nav a.nav-link {
+  font-size: 0.8rem;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;  
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  border-top:  0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-top:  0.1875rem solid var(--primary-orange);
+}
+
+.navbar-nav > li > a:hover {
+  border-top:  0.1875rem solid var(--primary-orange);
+}
+
+/******************************** HEADER **********************************************/
+
+.header-wraper {
+  position: relative;
+  /* background: url(../src/5ea9629322baab001c533b3f.jpg) no-repeat; */
+  /* background: url(../src/6Nf5kRK5aYUmKMee2GQ3F5-1200-80.jpg) no-repeat; */
+  background: url(../src/pexels-hasan-albari-1229861.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+/* ----------TYPED TEXT ----------------- */
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+/* ----------HEADER MAIN OFFER BUTTON ----------------- */
+
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
