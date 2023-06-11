@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // import Particles from 'react-particles';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Works from './components/works';
+import Contacts from './components/Contacts';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       /> */}
       <Navbar />
       <Header />
+      <Works />
+      <Contacts />
     </>
   );
 }
