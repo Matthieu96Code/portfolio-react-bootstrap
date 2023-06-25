@@ -2,8 +2,8 @@ import React from 'react'
 
 const Contacts = () => {
   return (
-    <div className="bg-secondary">
-      <p className="container-sm text-light text-center display-6 col-5">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+    <div className="bg-secondary py-5">
+      <p className="container-sm text-light text-center display-6 col-5 pb-5">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
       <div className="container-sm col-5">
         <div className="col-5"></div>
         <form className="container-sm col" action="/action_page.php">

@@ -28,6 +28,7 @@ function App() {
       <Header />
       <Works />
       <AboutMe />
+      <hr className="h1"></hr>
       <Contacts />
     </>
   );
