@@ -21,12 +21,36 @@ const Works = () => {
       source: 'https://github.com/Matthieu96Code/math-magicians'
     },
     {
-      title: 'project 1',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-      img: 'https://picsum.photos/id/20/200/300',
-      alt: 'project one  picture',
-      link: 'https://matthieu96code.github.io/capstone-project1-concert/',
-      source: 'https://github.com/Matthieu96Code/capstone-project1-concert'
+      title: 'Leader board',
+      description: 'The leaderboard website displays scores submitted by different players',
+      img: './img/Leader board.PNG',
+      alt: 'Leader board project picture',
+      link: 'https://matthieu96code.github.io/leaderboard-project/dist/',
+      source: 'https://github.com/Matthieu96Code/leaderboard-project'
+    },
+    {
+      title: 'Currency metrics webapp',
+      description: '',
+      img: './img/currencies metrics.PNG',
+      alt: 'Currency metrics webapp project picture',
+      link: 'https://metrics-webapp-jwa8.onrender.com/',
+      source: 'https://github.com/Matthieu96Code/metrics-webapp'
+    },
+    {
+      title: 'Bookstore',
+      description: 'Bookstore is a simple website that displays a list of books and allows you to add and remove books from that list.',
+      img: './img/bookstore.PNG',
+      alt: 'Bookstore project picture',
+      link: '',
+      source: 'https://github.com/Matthieu96Code/bookstore'
+    },
+    {
+      title: 'Space Traveler\'s Hub',
+      description: '',
+      img: './img/rockets.png',
+      alt: 'Space Traveler\'s Hub project picture',
+      link: '',
+      source: 'https://github.com/Matthieu96Code/spaceTravelersHub'
     },
   ]
 
@@ -43,16 +67,16 @@ const Works = () => {
             <Project project = {projectList[1]} />
           </div>
           <div className="col">
-            <Project project = {projectList[0]} />
+            <Project project = {projectList[2]} />
           </div>
           <div className="col">
-            <Project project = {projectList[0]} />
+            <Project project = {projectList[3]} />
           </div>
           <div className="col">
-            <Project project = {projectList[0]} />
+            <Project project = {projectList[4]} />
           </div>
           <div className="col">
-            <Project project = {projectList[0]} />
+            <Project project = {projectList[5]} />
           </div>
         </div>
 
