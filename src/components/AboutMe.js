@@ -3,7 +3,7 @@ import Technologies from './Technologies'
 
 const AboutMe = () => {
   return (
-    <div className="bg-secondary py-5">
+    <div className="bg-secondary py-5" id="about-me">
       <div className="container">
         <div className="row ">
 
