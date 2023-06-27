@@ -5,15 +5,15 @@ const Header = () => {
   return (
     <div className="header-wraper">
       <div className="main-info">
-        <h1>web development and websites promotions</h1>
+        <h1>Full Stack Web development</h1>
         <Typed 
           className="typed-text"
-          strings={["web Design", "web Developement", "Facebook Ads SMM", "Google Ads"]}
+          strings={["Web Design", "Web Developement", "Testing", "Maintenance"]}
           typeSpeed={40}
           backSpeed={60}
           loop
         />
-        <a href="#" className="btn-main-offer">contact me</a>
+        <a href="https://www.senoumatthieu96@gmail.com" target="blank" className="btn-main-offer">contact me</a>
       </div>
     </div>
   )

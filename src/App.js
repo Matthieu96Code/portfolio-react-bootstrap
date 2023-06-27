@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Works from './components/Works';
 import Contacts from './components/Contacts';
 import AboutMe from './components/AboutMe';
+import './styles.css'
 
 function App() {
   return (
@@ -28,7 +29,6 @@ function App() {
       <Header />
       <Works />
       <AboutMe />
-      <hr className="h1"></hr>
       <Contacts />
     </>
   );
