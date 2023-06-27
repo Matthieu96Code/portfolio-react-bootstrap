@@ -13,10 +13,10 @@ const Technologies = () => {
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
               <ul class="list-group list-group-horizontal">
-                <li class="list-group-item"><button className="btn btn-outline-danger">HTML</button></li>
-                <li class="list-group-item"><button className="btn btn-outline-danger">CSS</button></li>
-                <li class="list-group-item"><button className="btn btn-outline-danger">JavaScript</button></li>
-                <li class="list-group-item"><button className="btn btn-outline-danger">Ruby</button></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">HTML</a></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">CSS</a></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">JavaScript</a></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">Ruby</a></li>
               </ul>
             </div>
           </div>
@@ -30,10 +30,10 @@ const Technologies = () => {
           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
             <div class="accordion-body">
               <ul class="list-group list-group-horizontal">
-                <li class="list-group-item"><button className="btn btn-outline-danger">React.js</button></li>
-                <li class="list-group-item"><button className="btn btn-outline-danger">Ruby on Rails</button></li>
-                <li class="list-group-item"><button className="btn btn-outline-danger">Rspec</button></li>
-                <li class="list-group-item"><button className="btn btn-outline-danger">Redux</button></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">React.js</a></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">Ruby on Rails</a></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">Rspec</a></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">Redux</a></li>
               </ul>
             </div>
           </div>
@@ -47,11 +47,11 @@ const Technologies = () => {
           <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
             <div class="accordion-body">
               <ul class="list-group list-group-horizontal">
-                <li class="list-group-item"><button className="btn btn-outline-danger">Database Management</button></li>
-                <li class="list-group-item"><button className="btn btn-outline-danger">Version Control</button></li>
-                <li class="list-group-item"><button className="btn btn-outline-danger">CLI</button></li>
-                <li class="list-group-item"><button className="btn btn-outline-danger">API Design</button></li>
-                <li class="list-group-item"><button className="btn btn-outline-danger">Web Development</button></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">Database Management</a></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">Version Control</a></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">CLI</a></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">API Design</a></li>
+                <li class="list-group-item"><a href="#" className="btn btn-outline-danger">Web Development</a></li>
               </ul>
             </div>
           </div>
