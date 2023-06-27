@@ -9,13 +9,11 @@ const Project = (props) => {
       <img class="my-auto d-block h-75" src={project.img} alt={project.alt}/>
       <p className="card-text my-4">{project.description}</p>
       <div className="card-link">
-        <button className="btn btn-outline-danger">css</button>
-        <button className="btn btn-outline-danger">html</button>
-        <button className="btn btn-outline-danger">Java Script</button>
+        <a href="#" className="btn btn-outline-danger">css</a>
+        <a href="#" className="btn btn-outline-danger">html</a>
+        <a href="#" className="btn btn-outline-danger">Java Script</a>
       </div>
-      <button className="btn btn-warning">
-        <a className="text-black" href={project.link} target="blank" >See project</a>
-      </button>
+      <a className="text-black btn btn-warning" href={project.link} target="blank" >See project</a>
     </section>
   )
 }
