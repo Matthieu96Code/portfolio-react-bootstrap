@@ -1,0 +1,15 @@
+:root {
+  --primary-: #fff;
+  --primary-beige: beige;
+  --primary-gray: DimGray;
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* #works {
+  background-color: var(--primary-beige) !important;
+} */

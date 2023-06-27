@@ -1,19 +1,22 @@
 import React from 'react'
 
-const Project = () => {
+const Project = (props) => {
+
+  const project = props.project
   return (
-    <section className="card">
-      <h2 className="card-title">project 1</h2>
-      <img src="" alt="project-snipping"/>
-      <p className="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+    <section className="card h-100 px-3">
+      <h2 className="card-title">{project.title}</h2>
+      <img class="my-auto d-block h-75" src={project.img} alt={project.alt}/>
+      <p className="card-text my-4">{project.description}</p>
       <div className="card-link">
-        <button className="btn btn-outline-danger">css</button>
-        <button className="btn btn-outline-danger">html</button>
-        <button className="btn btn-outline-danger">Java Script</button>
+        <a href="#" className="btn btn-outline-danger">css</a>
+        <a href="#" className="btn btn-outline-danger">html</a>
+        <a href="#" className="btn btn-outline-danger">Java Script</a>
       </div>
-      <button className="btn btn-warning">See project</button>
+      <a className="text-black btn btn-warning" href={project.link} target="blank" >See project</a>
     </section>
   )
 }
 
 export default Project
+
