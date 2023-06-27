@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-bootstrap/static/css/main.0c7e59ce.css",
+    "main.js": "/portfolio-react-bootstrap/static/js/main.ceeb7a26.js",
+    "static/js/787.026528bc.chunk.js": "/portfolio-react-bootstrap/static/js/787.026528bc.chunk.js",
+    "static/media/pexels-hasan-albari-1229861.jpg": "/portfolio-react-bootstrap/static/media/pexels-hasan-albari-1229861.764c542f19e12e322696.jpg",
+    "index.html": "/portfolio-react-bootstrap/index.html",
+    "main.0c7e59ce.css.map": "/portfolio-react-bootstrap/static/css/main.0c7e59ce.css.map",
+    "main.ceeb7a26.js.map": "/portfolio-react-bootstrap/static/js/main.ceeb7a26.js.map",
+    "787.026528bc.chunk.js.map": "/portfolio-react-bootstrap/static/js/787.026528bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c7e59ce.css",
+    "static/js/main.ceeb7a26.js"
+  ]
+}
