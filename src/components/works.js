@@ -55,11 +55,11 @@ const Works = () => {
   ]
 
   return (
-    <div className="bg-dark" id="works">
+    <div className="bg-light" id="works">
       <div className="px-5">
         <h2 className="display-3 text-center pt-5">Works</h2>
 
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 py-5">
+        <div className="row row-cols-1 row-cols-sm-1 row-cols-lg-2 row-cols-xl-3 py-5">
           <div className="col mb-5">
             <Project project = {projectList[0]} />
           </div>
