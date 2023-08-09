@@ -101,3 +101,23 @@ nav ul li {
   color: var(--primary-white);
   margin: 2rem;
 }
+
+/* ------------CARD HOVER ------------------------- */
+
+#about-me {
+  background-color: DarkSlateBlue !important; 
+  box-shadow: gray 0 -5px 10px;
+}
+
+.card {
+  /* background-color: black !important; */
+  filter: brightness(40%);
+  transition: transform 0.5s;
+  box-shadow: gray 1px 1px 10px !important;
+}
+
+.card:hover {
+  filter: brightness(100%);
+  transform: scale(1.1);
+  box-shadow: gray 5px 5px 100px !important;
+}

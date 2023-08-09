@@ -14,7 +14,6 @@ function App() {
       <Header />
       <Works />
       <AboutMe />
-      <hr />
       <Contacts />
     </>
   );
