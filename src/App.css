@@ -40,7 +40,7 @@ nav ul li {
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 3.5rem !important;
 }
 
 .navbar-nav > li > a.active,
@@ -50,6 +50,7 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top:  0.1875rem solid var(--primary-orange);
+  /* width: 100%; */
 }
 
 /******************************** HEADER **********************************************/
@@ -62,6 +63,7 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 90vh;
+  box-shadow: gray 0 10px 10px;
 }
 
 .main-info {
