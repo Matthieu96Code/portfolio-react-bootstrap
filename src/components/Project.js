@@ -4,7 +4,7 @@ const Project = (props) => {
 
   const project = props.project
   return (
-    <section className="card h-100 px-5 py-5">
+    <section className="project-card card h-100 px-5 py-5 rounded-5">
       <h2 className="card-title">{project.title}</h2>
       <img class="my-auto d-block h-75" src={project.img} alt={project.alt}/>
       <p className="card-text my-4">{project.description}</p>
