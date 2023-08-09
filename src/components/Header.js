@@ -14,6 +14,12 @@ const Header = () => {
           loop
         />
         <a href="https://www.senoumatthieu96@gmail.com" target="blank" className="btn-main-offer">contact me</a>
+        <div className='row'>
+          <a className='col h4' href="https://www.linkedin.com/in/kodjo-matthieu-senou/" target="blank"><i className="bi bi-linkedin"></i></a>
+          <a className='col h4' href="https://github.com/Matthieu96Code" target="blank"><i className="bi bi-github"></i></a>
+          <a className='col h4' href="https://twitter.com/MatthieuSenou" target="blank"><i className="bi bi-twitter"></i></a>
+          <a className='col h4' href="https://www.facebook.com/matthieu.senou/" target="blank"><i className="bi bi-facebook"></i></a>
+        </div>
       </div>
     </div>
   )
