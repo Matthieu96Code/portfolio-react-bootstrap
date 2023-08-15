@@ -6,7 +6,7 @@ const Project = (props) => {
   return (
     <section className="project-card card h-100 px-5 py-5 rounded-5">
       <h2 className="card-title">{project.title}</h2>
-      <img class="my-auto d-block h-75" src={project.img} alt={project.alt}/>
+      <img class="my-auto d-block h-75 img-fluid" src={project.img} alt={project.alt}/>
       <p className="card-text my-4">{project.description}</p>
       <div className="card-link row row-cols-auto my-2">
         {props.project.technologies.map((technology) => (
