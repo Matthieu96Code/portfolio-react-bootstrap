@@ -70,7 +70,7 @@ const projectList = [
         description: 'Bookstore is a straightforward website that showcases a book list and offers functionality to add and remove books. With a user-friendly interface, users can easily navigate through the displayed books, seamlessly add new entries, and remove existing ones, making it a convenient platform for managing book collections.',
         img: './img/bookstore.PNG',
         alt: 'Bookstore project picture',
-        link: '',
+        link: 'https://github.com/Matthieu96Code/bookstore',
         source: 'https://github.com/Matthieu96Code/bookstore',
         technologies: [
             {id: 1, name: 'HTML', link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'},
