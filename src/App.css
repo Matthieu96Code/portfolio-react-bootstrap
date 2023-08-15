@@ -20,6 +20,10 @@ body {
 
 /************ MENU LINKS *************/
 
+.navbar {
+  box-shadow: black 0 5px 10px;
+}
+
 nav a.nav-link {
   font-size: 0.8rem;
   letter-spacing: 0.0375rem;
@@ -45,11 +49,11 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:focus {
-  border-top:  0.1875rem solid var(--primary-orange);
+  border-top:  0.1875rem solid var(--primary-red);
 }
 
 .navbar-nav > li > a:hover {
-  border-top:  0.1875rem solid var(--primary-orange);
+  border-top:  0.1875rem solid var(--primary-red);
   /* width: 100%; */
 }
 
@@ -59,7 +63,8 @@ nav ul li {
   position: relative;
   /* background: url(../src/5ea9629322baab001c533b3f.jpg) no-repeat; */
   /* background: url(../src/6Nf5kRK5aYUmKMee2GQ3F5-1200-80.jpg) no-repeat; */
-  background: url(../src/pexels-hasan-albari-1229861.jpg) no-repeat;
+  /* background: url(../src/pexels-hasan-albari-1229861.jpg) no-repeat; */
+  background: url(https://bestercapitalmedia.com/public//img/other/wd_images/wd-platform.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -81,7 +86,8 @@ nav ul li {
 
 .main-info h1,
 .main-info h2 {
-  color: var(--primary-orange);
+  color: var(--primary-white);
+  /* color: var(--primary-orange); */
   /* text-transform: uppercase; */
 }
 
@@ -95,6 +101,7 @@ nav ul li {
 /* ----------HEADER MAIN OFFER BUTTON ----------------- */
 
 .btn-main-offer {
+  background-color: var(--primary-red);
   border: 1px solid var(--primary-red);
   text-transform: uppercase;
   border-radius: 0;
@@ -103,15 +110,21 @@ nav ul li {
   margin: 2rem;
 }
 
+.btn-main-offer:hover {
+  background-color: var(--primary-white);
+  border: 1px solid var(--primary-white);
+  color: var(--primary-red);
+}
+
 /* ------------CARD HOVER ------------------------- */
 
 #about-me {
-  background-color: DarkSlateBlue !important; 
+  background-color: DarkSlateBlue !important;
   box-shadow: gray 0 -5px 10px;
 }
 
 .card {
-  filter: grayscale(80%);
+  filter: grayscale(50%);
   transition: transform 0.5s;
   box-shadow: gray 1px 1px 10px !important;
 }
