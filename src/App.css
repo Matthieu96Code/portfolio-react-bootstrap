@@ -79,9 +79,10 @@ nav ul li {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.main-info h1 {
+.main-info h1,
+.main-info h2 {
   color: var(--primary-orange);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 /* ----------TYPED TEXT ----------------- */
@@ -110,8 +111,7 @@ nav ul li {
 }
 
 .card {
-  /* background-color: black !important; */
-  filter: brightness(40%);
+  filter: grayscale(80%);
   transition: transform 0.5s;
   box-shadow: gray 1px 1px 10px !important;
 }
