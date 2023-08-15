@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-react-bootstrap/static/css/main.d093b53f.css",
-    "main.js": "/portfolio-react-bootstrap/static/js/main.c9deb14f.js",
+    "main.css": "/portfolio-react-bootstrap/static/css/main.4c0e93e1.css",
+    "main.js": "/portfolio-react-bootstrap/static/js/main.9def4331.js",
     "static/js/787.026528bc.chunk.js": "/portfolio-react-bootstrap/static/js/787.026528bc.chunk.js",
-    "static/media/pexels-hasan-albari-1229861.jpg": "/portfolio-react-bootstrap/static/media/pexels-hasan-albari-1229861.764c542f19e12e322696.jpg",
     "index.html": "/portfolio-react-bootstrap/index.html",
-    "main.d093b53f.css.map": "/portfolio-react-bootstrap/static/css/main.d093b53f.css.map",
-    "main.c9deb14f.js.map": "/portfolio-react-bootstrap/static/js/main.c9deb14f.js.map",
+    "main.4c0e93e1.css.map": "/portfolio-react-bootstrap/static/css/main.4c0e93e1.css.map",
+    "main.9def4331.js.map": "/portfolio-react-bootstrap/static/js/main.9def4331.js.map",
     "787.026528bc.chunk.js.map": "/portfolio-react-bootstrap/static/js/787.026528bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d093b53f.css",
-    "static/js/main.c9deb14f.js"
+    "static/css/main.4c0e93e1.css",
+    "static/js/main.9def4331.js"
   ]
 }
