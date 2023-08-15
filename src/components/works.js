@@ -10,9 +10,9 @@ const Works = () => {
       <div className="px-5">
         <h2 className="display-3 text-center pt-5">Works</h2>
 
-        <div className="row row-cols-1 row-cols-sm-1 row-cols-lg-2 row-cols-xl-3 py-5">
+        <div className="row py-5">
           {projectList.map((project) => (
-            <div key={project.id} className="col mb-5 px-5">
+            <div key={project.id} className="my-4 px-4 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4" >
               <Project project = {project} />
             </div>
           ))}
