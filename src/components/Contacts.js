@@ -20,12 +20,16 @@ const Contacts = () => {
           </div>
           <button type="submit" class="col-md-3 col-lg-4 btn btn-danger my-3 quicksand-font">Submit</button>
         </form>
-        <div className='d-flex justify-content-center mt-5'>
-        <a className='quicksand-font sm-icon mx-3 h4' href="https://www.linkedin.com/in/kodjo-matthieu-senou/" target="blank"><i className="bi bi-linkedin"></i></a>
-        <a className='quicksand-font sm-icon mx-3 h4' href="https://github.com/Matthieu96Code" target="blank"><i className="bi bi-github"></i></a>
-        <a className='quicksand-font sm-icon mx-3 h4' href="https://twitter.com/MatthieuSenou" target="blank"><i className="bi bi-twitter"></i></a>
-        <a className='quicksand-font sm-icon mx-3 h4' href="https://www.facebook.com/matthieu.senou/" target="blank"><i className="bi bi-facebook"></i></a>
-      </div>
+        <div className='text-center mt-4'>
+          <h4 className='quicksand-font text-light'>Let's connect</h4>
+          <div className='d-flex justify-content-center mt-4'>
+            <a className='quicksand-font sm-icon mx-3 h4' href="https://www.linkedin.com/in/kodjo-matthieu-senou/" target="blank"><i className="bi bi-linkedin"></i></a>
+            <a className='quicksand-font sm-icon mx-3 h4' href="https://github.com/Matthieu96Code" target="blank"><i className="bi bi-github"></i></a>
+            <a className='quicksand-font sm-icon mx-3 h4' href="https://twitter.com/MatthieuSenou" target="blank"><i className="bi bi-twitter"></i></a>
+            <a className='quicksand-font sm-icon mx-3 h4' href="https://www.facebook.com/matthieu.senou/" target="blank"><i className="bi bi-facebook"></i></a>
+            <a className='quicksand-font sm-icon mx-3 h4' href="mailto:senoumatthieu96@gmail.com" target="blank"><i className="bi bi-envelope"></i></a>
+          </div>
+        </div>
       </div>
     </div>
   )
