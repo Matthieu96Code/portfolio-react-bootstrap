@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Works from './components/Works';
 import Contacts from './components/Contacts';
 import AboutMe from './components/AboutMe';
+import Technologies from './components/Technologies'
 import './styles.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Works />
       <AboutMe />
+      <Technologies />
       <Contacts />
     </>
   );
