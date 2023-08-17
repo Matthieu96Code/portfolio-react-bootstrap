@@ -1,15 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Quicksand:wght@300;500;700&display=swap');
 
 :root {
   --primary-white: #fff;
-  --primary-orange: #f9ab00;
   --primary-dark: rgba(255,255,255, 0);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+
+  --Primary-davy-light: #4d4d4d;
+  --Primary-davy-dark: #484848;
+  --Primary-eerie-black: #202020;
+  --Primary-jet-dark: #2b2b2b;
+  --Primary-jet-light: #333;
 }
 
-body {
-  font-family: "Roboto Condensed", sans-serif;
+a {
+  text-decoration: none;
+}
+
+.quicksand-font {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.comfortaa-font {
+  font-family: 'Comfortaa', cursive;
 }
 
 /******************************** NAVBAR **********************************************/
@@ -21,7 +34,7 @@ body {
 /************ MENU LINKS *************/
 
 .navbar {
-  box-shadow: black 0 5px 10px;
+  box-shadow: var(--Primary-jet-dark) 0 5px 10px;
 }
 
 nav a.nav-link {
@@ -38,7 +51,7 @@ nav ul li {
   margin-right: 0.75rem;  
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
-  border-top:  0.1875rem solid var(--primary-dark);
+  border-top:  0.1875rem solid var(--Primary-davy-light);
 }
 
 .navbar-brand {
@@ -54,19 +67,18 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top:  0.1875rem solid var(--primary-red);
-  /* width: 100%; */
 }
 
 /******************************** HEADER **********************************************/
 
 .header-wraper {
   position: relative;
-  /* background: url(../src/5ea9629322baab001c533b3f.jpg) no-repeat; */
-  /* background: url(../src/6Nf5kRK5aYUmKMee2GQ3F5-1200-80.jpg) no-repeat; */
-  /* background: url(../src/pexels-hasan-albari-1229861.jpg) no-repeat; */
-  background: url(https://bestercapitalmedia.com/public//img/other/wd_images/wd-platform.jpg) no-repeat;
+  background-repeat: no-repeat;
+  /* background-image: url(../src/img/web-design-2906159_1280b.jpg); */
+  background-image: url(../src/img/pexels-hasan-albari-1229861.jpg);
   background-size: cover;
   background-position: center;
+  background-blend-mode: luminosity;
   height: 90vh;
   box-shadow: gray 0 10px 10px;
 }
@@ -81,14 +93,11 @@ nav ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 .main-info h1,
 .main-info h2 {
-  color: var(--primary-white);
-  /* color: var(--primary-orange); */
-  /* text-transform: uppercase; */
+  color: var(--primary-white) !important;
 }
 
 /* ----------TYPED TEXT ----------------- */
@@ -116,21 +125,40 @@ nav ul li {
   color: var(--primary-red);
 }
 
+.sm-icon {
+  color: var(--primary-white);
+}
+
+.sm-icon:hover {
+  color: var(--primary-red);
+}
+
 /* ------------CARD HOVER ------------------------- */
 
 #about-me {
-  background-color: DarkSlateBlue !important;
-  box-shadow: gray 0 -5px 10px;
+  background-color: var(--Primary-eerie-black) !important;
+  box-shadow: var(--Primary-davy-dark) 0 -5px 10px;
+}
+
+#contacts {
+  background-color: var(--Primary-eerie-black) !important;
+}
+
+#skills {
+  background-image: url(../src/img/keyboard.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .card {
   filter: grayscale(50%);
   transition: transform 0.5s;
-  box-shadow: gray 1px 1px 10px !important;
+  box-shadow: var(--Primary-davy-dark) 1px 1px 10px !important;
 }
 
 .card:hover {
   filter: brightness(100%);
   transform: scale(1.1);
-  box-shadow: gray 5px 5px 100px !important;
+  box-shadow: var(--Primary-davy-dark) 5px 5px 100px !important;
 }
