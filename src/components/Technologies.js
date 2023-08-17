@@ -14,7 +14,7 @@ const Technologies = () => {
               </h3>
               <ul className="">
                 {skill.skills.map((item) => (
-                  <li className="list-unstyled my-3 quicksand-font"><a href={item.link} className="text-danger h4">{item.name}</a></li>
+                  <li className="list-unstyled my-3 quicksand-font"><a href={item.link} className="text-danger h4 list-group-item">{item.name}</a></li>
                 ))}
               </ul>
             </div>
