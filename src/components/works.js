@@ -12,7 +12,7 @@ const Works = () => {
 
         <div className="row py-5">
           {projectList.map((project) => (
-            <div key={project.id} className="my-4 px-4 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4" >
+            <div key={project.id} className="my-4 px-4 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6" >
               <Project project = {project} />
             </div>
           ))}
