@@ -3,7 +3,7 @@ const projectList = [
         id: 1,
         title: 'Togoville Jazz 2022',
         description: 'Togoville Jazz 2022 is a jazz festival website featuring two pages, multiple sections, and captivating HTML, CSS, and JavaScript animations. With a visually stunning design, it offers event details, artist profiles, and engaging interactivity. This immersive platform connects jazz enthusiasts, artists, and organizers for an unforgettable online celebration of music and culture.',
-        img: './img/togoville jazz project.PNG',
+        img: './img/jazz.png',
         alt: 'Togoville Jazz 2022 project picture',
         link: 'https://matthieu96code.github.io/capstone-project1-concert/',
         source: 'https://github.com/Matthieu96Code/capstone-project1-concert',

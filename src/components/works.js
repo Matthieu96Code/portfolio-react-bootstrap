@@ -8,7 +8,7 @@ const Works = () => {
   return (
     <div className="bg-light" id="works">
       <div className="px-5">
-        <h2 className="display-3 text-center pt-5">Works</h2>
+        <h2 className="display-3 text-center pt-5 comfortaa-font">Works</h2>
 
         <div className="row py-5">
           {projectList.map((project) => (
