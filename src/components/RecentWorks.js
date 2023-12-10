@@ -1,9 +1,17 @@
+import jazz from '../assets/image/jazz.jpg';
+import rockets from '../assets/image/rockets.jpg';
+import leaderboard from '../assets/image/Leader board.jpg';
+import bookstore from '../assets/image/bookstore.jpg';
+import currencies from '../assets/image/currencies metrics.jpg';
+import mathematics from '../assets/image/Math magicians.PNG';
+import budget from '../assets/image/Budget app.PNG';
+
 const projectList = [
     {
         id: 1,
         title: 'Togoville Jazz 2022',
         description: 'Togoville Jazz 2022 is a jazz festival website featuring two pages, multiple sections, and captivating HTML, CSS, and JavaScript animations. With a visually stunning design, it offers event details, artist profiles, and engaging interactivity. This immersive platform connects jazz enthusiasts, artists, and organizers for an unforgettable online celebration of music and culture.',
-        img: './img/jazz.jpg',
+        img: jazz,
         alt: 'Togoville Jazz 2022 project picture',
         link: 'https://matthieu96code.github.io/capstone-project1-concert/',
         source: 'https://github.com/Matthieu96Code/capstone-project1-concert',
@@ -17,7 +25,7 @@ const projectList = [
         id: 2,
         title: 'Math Magicians',
         description: 'Math Magicians is a captivating Single Page App (SPA) designed for mathematics enthusiasts. It features a user-friendly interface for simple calculations and provides random math-related quotes, sparking inspiration. With its minimalist design and interactive features, it offers an engaging platform for all fans of mathematics.',
-        img: './img/Math magicians.PNG',
+        img: mathematics,
         alt: 'Math Magicians project picture',
         link: 'https://math-magicians-6gfp.onrender.com/',
         source: 'https://github.com/Matthieu96Code/math-magicians',
@@ -34,7 +42,7 @@ const projectList = [
         id: 3,
         title: 'Leader board',
         description: 'The Leaderboard website is a platform that showcases scores submitted by various players. With a sleek and user-friendly interface, it allows users to view and compare scores from different players across various games or activities. The website dynamically updates in real-time as new scores are submitted, providing a dynamic and engaging experience for participants and spectators alike. Stay informed, track progress, and foster healthy competition through the Leaderboard website.',
-        img: './img/Leader board.jpg',
+        img: leaderboard,
         alt: 'Leader board project picture',
         link: 'https://matthieu96code.github.io/leaderboard-project/dist/',
         source: 'https://github.com/Matthieu96Code/leaderboard-project',
@@ -51,7 +59,7 @@ const projectList = [
         id: 4,
         title: 'Currency metrics webapp',
         description: 'The Currency Metrics web app is a responsive application built using React and Redux. The app consists of two pages. The first page displays a comprehensive list of currency codes and names, providing users with an overview of various currencies. On the second page, users can select a specific currency and view its corresponding stock information.',
-        img: './img/currencies metrics.jpg',
+        img: currencies,
         alt: 'Currency metrics webapp project picture',
         link: 'https://metrics-webapp-jwa8.onrender.com/',
         source: 'https://github.com/Matthieu96Code/metrics-webapp',
@@ -68,7 +76,7 @@ const projectList = [
         id: 5,
         title: 'Bookstore',
         description: 'Bookstore is a straightforward website that showcases a book list and offers functionality to add and remove books. With a user-friendly interface, users can easily navigate through the displayed books, seamlessly add new entries, and remove existing ones, making it a convenient platform for managing book collections.',
-        img: './img/bookstore.jpg',
+        img: bookstore,
         alt: 'Bookstore project picture',
         link: 'https://bookstore-vyyv.onrender.com',
         source: 'https://github.com/Matthieu96Code/bookstore',
@@ -85,7 +93,7 @@ const projectList = [
         id: 6,
         title: 'Budget App',
         description: 'budget-app is a mobile web application built using Ruby on Rails that helps users manage their budget effectively. With this app, users can register an account and log in, ensuring that their data remains private and secure.',
-        img: './img/Budget app.PNG',
+        img: budget,
         alt: 'Budget App project picture',
         link: 'https://budget-7a3k.onrender.com/',
         source: 'https://github.com/Matthieu96Code/budget-app',
@@ -103,7 +111,7 @@ export const projectUnused = [
         id: 7,
         title: 'Space Traveler\'s Hub',
         description: 'Space Traveler\'s Hub is a dynamic website built with React and Redux. It offers an immersive platform for users to explore space missions and rockets. Users can join missions, reserve rockets, and access detailed information about each mission and rocket, creating an engaging experience for space enthusiasts and aspiring astronauts.',
-        img: './img/rockets.jpg',
+        img: rockets,
         alt: 'Space Traveler\'s Hub project picture',
         link: '',
         source: 'https://github.com/Matthieu96Code/spaceTravelersHub',
