@@ -17,7 +17,9 @@ const Project = (props) => {
       </div>
       <div className='links row d-flex justify-content-between'>
         <a className="col-4 text-light btn btn-danger mt-4 quicksand-font" href={project.link} target="blank">Demo</a>
-        <a className="col-4 text-light btn btn-danger mt-4 quicksand-font" href={project.source} target="blank">Source</a>
+        {project.source && (
+          <a className="col-4 text-light btn btn-danger mt-4 quicksand-font" href={project.source} target="blank">Source</a>
+        )}
       </div>
     </section>
   )

@@ -1,12 +1,13 @@
 import jazz from '../assets/image/jazz.jpg';
 import rockets from '../assets/image/rockets.jpg';
+import gymelite from '../assets/image/fitness.jpg';
 import leaderboard from '../assets/image/Leader board.jpg';
 import bookstore from '../assets/image/bookstore.jpg';
 import currencies from '../assets/image/currencies metrics.jpg';
 import mathematics from '../assets/image/Math magicians.PNG';
 import budget from '../assets/image/Budget app.PNG';
 
-const projectList = [
+const allProjects = [
     {
         id: 1,
         title: 'Togoville Jazz 2022',
@@ -104,9 +105,6 @@ const projectList = [
             {id: 4, name: 'Ruby on Rails', link: 'https://rubyonrails.org/'},
         ]
     },
-]
-
-export const projectUnused = [
     {
         id: 7,
         title: 'Space Traveler\'s Hub',
@@ -124,6 +122,22 @@ export const projectUnused = [
             {id: 6, name: 'Rest API', link: 'https://developer.mozilla.org/en-US/docs/Glossary/REST'},
         ]
     },
-];
+    {
+        id: 8,
+        title: 'Gym Elite',
+        description: 'Gym Elite is an online hub tailored for gym-goers, fitness enthusiasts, and anyone looking to make the most out of their gym experience. The site aims to provide resources, workout plans, nutrition advice, and a sense of community for individuals committed to their fitness journey.',
+        img: gymelite,
+        alt: 'gym elite project picture',
+        link: 'http://gymelite.unaux.com',
+        source: undefined,
+        // source: 'https://github.com/Matthieu96Code/spaceTravelersHub',
+        technologies: [
+            {id: 1, name: 'WordPress', link: 'https://wordpress.com/'},
+            {id: 2, name: 'Elementor', link: 'https://elementor.com/'},
+        ]
+    },
+]
+
+const projectList = [allProjects[0], allProjects[1], allProjects[2], allProjects[4], allProjects[5], allProjects[7]];
 
 export default projectList;
